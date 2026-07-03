@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-hidden="true">
+  <defs>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.88  0 0 0 0 1  0 0 0 0 0.95  0 0 0 .62 0" result="soft"/>
+      <feMerge><feMergeNode in="soft"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="accentGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.08  0 0 0 0 0.88  0 0 0 0 0.45  0 0 0 .75 0" result="soft"/>
+      <feMerge><feMergeNode in="soft"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g stroke="#eef5f2" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M60 10.5 96 25v25.8c0 25.6-15 47.4-36 58.7-21-11.3-36-33.1-36-58.7V25l36-14.5Z"/>
+    <path d="M60 36.5 65.5 48l12.4 1.8-9 8.8 2.1 12.3L60 65.1 49 70.9l2.1-12.3-9-8.8L54.5 48 60 36.5Z"/>
+  </g>
+</svg>

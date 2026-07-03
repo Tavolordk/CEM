@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-hidden="true">
+  <defs>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.88  0 0 0 0 1  0 0 0 0 0.95  0 0 0 .62 0" result="soft"/>
+      <feMerge><feMergeNode in="soft"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="accentGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.08  0 0 0 0 0.88  0 0 0 0 0.45  0 0 0 .75 0" result="soft"/>
+      <feMerge><feMergeNode in="soft"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g stroke="#eef5f2" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <circle cx="60" cy="44" r="24.5"/>
+    <circle cx="60" cy="44" r="15.2" opacity=".72"/>
+    <path d="M60 32.8l3.7 7.5 8.3 1.2-6 5.8 1.4 8.2-7.4-3.9-7.4 3.9 1.4-8.2-6-5.8 8.3-1.2 3.7-7.5Z"/>
+    <path d="M45.6 63.8 35.7 105l22.8-14.3M74.4 63.8 84.3 105 61.5 90.7"/>
+  </g>
+</svg>
