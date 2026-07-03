@@ -2,117 +2,283 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Centro Espacial Mexicano</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="favicon.ico" sizes="any">
-    <link rel="icon" type="image/png" href="favicon-32x32.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="manifest" href="site.webmanifest">
-    <meta name="theme-color" content="#050505">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Centro Espacial Mexicano | Más allá del horizonte</title>
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="favicon-32x32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <meta name="theme-color" content="#030706">
+  <meta name="description"
+    content="Centro Espacial Mexicano: ciencia, innovación, educación espacial y futuro aeroespacial para México.">
 </head>
 
 <body>
+  <div class="site-bg" aria-hidden="true"></div>
 
-    <header class="navbar">
-        <div class="brand">
-            <img src="assets/img/CEM.png" alt="Centro Espacial Mexicano">
-            <span>Centro Espacial Mexicano</span>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Centro Espacial Mexicano">
+      <img src="assets/img/CEM.png" alt="Centro Espacial Mexicano">
+    </a>
+
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#mision">Misión</a>
+      <a href="#valores">Valores</a>
+      <a href="#proposito">Propósito</a>
+      <a href="#meta">Meta 2050</a>
+    </nav>
+
+    <a class="header-cta" href="#meta">Explorar futuro</a>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Centro Espacial Mexicano</p>
+
+        <h1>
+          México mirando
+          <span>más allá del horizonte.</span>
+        </h1>
+
+        <p class="hero__description">
+          Una institución dedicada al desarrollo científico, tecnológico y educativo
+          para impulsar la exploración espacial, la innovación aeroespacial y la
+          formación de nuevas generaciones de científicos, ingenieros y emprendedores.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#proposito" class="btn btn--primary">Conocer propósito</a>
+          <a href="#valores" class="btn btn--ghost">Ver valores</a>
         </div>
 
-        <nav>
-            <a href="#mision">Misión</a>
-            <a href="#areas">Áreas</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    </header>
+        <div class="hero__stats" aria-label="Ejes estratégicos">
+          <article>
+            <strong>Ciencia</strong>
+            <span>Investigación espacial</span>
+          </article>
 
-    <main>
-        <section class="hero">
-            <div class="stars"></div>
+          <article>
+            <strong>Innovación</strong>
+            <span>Tecnología aeroespacial</span>
+          </article>
 
-            <div class="hero-content">
-                <p class="eyebrow">Ciencia · Tecnología · Exploración</p>
+          <article>
+            <strong>Futuro</strong>
+            <span>Talento mexicano</span>
+          </article>
+        </div>
+      </div>
 
-                <h1>Centro Espacial Mexicano</h1>
+      <div class="hero__visual">
+        <div class="orb orb--green"></div>
+        <div class="orb orb--red"></div>
 
-                <p class="subtitle">
-                    Impulsando la educación, investigación e innovación aeroespacial desde México hacia el futuro.
-                </p>
+        <div class="launch-card">
+          <img src="assets/img/hero-space-base.png" alt="Cohete despegando desde una base espacial mexicana">
+        </div>
 
-                <div class="hero-actions">
-                    <a href="#mision" class="btn primary">Conoce el proyecto</a>
-                    <a href="#contacto" class="btn secondary">Únete al centro</a>
-                </div>
-            </div>
-        </section>
+        <div class="floating-card floating-card--top">
+          <span>🚀</span>
+          <div>
+            <strong>Exploración</strong>
+            <small>Impulso aeroespacial</small>
+          </div>
+        </div>
 
-        <section id="mision" class="section">
-            <p class="section-label">Nuestra misión</p>
-            <h2>Acercar el espacio a México</h2>
-            <p>
-                El Centro Espacial Mexicano nace con el propósito de acercar la ciencia,
-                la tecnología y la exploración espacial a estudiantes, investigadores,
-                emprendedores y comunidades de México.
-            </p>
-        </section>
+        <div class="floating-card floating-card--bottom">
+          <span>🇲🇽</span>
+          <div>
+            <strong>De México al cosmos</strong>
+            <small>Ciencia al servicio de la nación</small>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section id="areas" class="section dark">
-            <p class="section-label">Áreas de trabajo</p>
-            <h2>Construyendo capacidades espaciales</h2>
+    <section class="intro-section">
+      <article class="intro-card">
+        <span class="section-tag">Descripción del CEM</span>
 
-            <div class="cards">
-                <article class="card">
-                    <h3>Educación Espacial</h3>
-                    <p>Cursos, talleres, programas formativos y experiencias prácticas.</p>
-                </article>
+        <h2>Una plataforma nacional para transformar curiosidad en descubrimiento.</h2>
 
-                <article class="card">
-                    <h3>Investigación Aeroespacial</h3>
-                    <p>Proyectos científicos, experimentales y tecnológicos.</p>
-                </article>
+        <p>
+          El Centro Espacial Mexicano busca convertir a México en una potencia
+          latinoamericana en ciencia y tecnología espacial durante el siglo XXI.
+          Su enfoque combina educación, investigación, innovación, colaboración
+          internacional y desarrollo de talento humano.
+        </p>
+      </article>
 
-                <article class="card">
-                    <h3>Tecnología Satelital</h3>
-                    <p>Software, datos, monitoreo, simulación y análisis espacial.</p>
-                </article>
+      <article class="intro-highlight">
+        <span>“</span>
+        <p>Más allá del horizonte.</p>
+      </article>
+    </section>
 
-                <article class="card">
-                    <h3>Divulgación Científica</h3>
-                    <p>Eventos, conferencias, hackathons y contenido educativo.</p>
-                </article>
-            </div>
-        </section>
+    <section class="mission-vision" id="mision">
+      <article class="info-card info-card--green">
+        <div class="info-card__icon">
+          <img src="assets/img/icon-mission.png" alt="Icono de misión">
+        </div>
 
-        <section id="proyectos" class="section">
-            <p class="section-label">Próximamente</p>
-            <h2>Proyectos futuros</h2>
+        <span class="section-tag">Misión</span>
 
-            <div class="project-list">
-                <span>Academia espacial mexicana</span>
-                <span>Clubes de robótica</span>
-                <span>Simuladores de misión</span>
-                <span>Observatorio de datos satelitales</span>
-                <span>Programas para estudiantes</span>
-            </div>
-        </section>
+        <h2>Desarrollar conocimiento, tecnología y talento humano.</h2>
 
-        <section id="contacto" class="section contact">
-            <p class="section-label">Contacto</p>
-            <h2>Forma parte del proyecto</h2>
+        <p>
+          Impulsar la exploración pacífica del espacio, la innovación científica,
+          el crecimiento económico y el bienestar de la sociedad mexicana.
+        </p>
+      </article>
 
-            <form>
-                <input type="text" placeholder="Nombre completo">
-                <input type="email" placeholder="Correo electrónico">
-                <input type="text" placeholder="Institución o empresa">
-                <textarea placeholder="Mensaje"></textarea>
-                <button type="submit">Enviar mensaje</button>
-            </form>
-        </section>
-    </main>
+      <article class="info-card info-card--red">
+        <div class="info-card__icon">
+          <img src="assets/img/icon-vision.png" alt="Icono de visión">
+        </div>
 
+        <span class="section-tag">Visión</span>
+
+        <h2>Ser el principal centro espacial de América Latina.</h2>
+
+        <p>
+          Ser reconocido mundialmente por sus contribuciones a la exploración del
+          universo y al desarrollo tecnológico de México.
+        </p>
+      </article>
+    </section>
+
+    <section class="values-section" id="valores">
+      <div class="section-heading">
+        <span class="section-tag">Valores</span>
+        <h2>Principios que guían cada misión.</h2>
+        <p>
+          Ciencia, colaboración e integridad para construir un futuro espacial
+          con impacto real para México y la humanidad.
+        </p>
+      </div>
+
+      <div class="values-grid">
+        <article class="value-card">
+          <img src="assets/img/icon-innovation.png" alt="Icono de innovación">
+          <h3>Innovación</h3>
+          <p>Buscar constantemente nuevas soluciones y tecnologías.</p>
+        </article>
+
+        <article class="value-card">
+          <img src="assets/img/icon-excellence.png" alt="Icono de excelencia">
+          <h3>Excelencia</h3>
+          <p>Mantener los más altos estándares científicos y académicos.</p>
+        </article>
+
+        <article class="value-card">
+          <img src="assets/img/icon-integrity.png" alt="Icono de integridad">
+          <h3>Integridad</h3>
+          <p>Actuar con ética, transparencia y responsabilidad.</p>
+        </article>
+
+        <article class="value-card">
+          <img src="assets/img/icon-collaboration.png" alt="Icono de colaboración">
+          <h3>Colaboración</h3>
+          <p>Trabajar en equipo con instituciones nacionales e internacionales.</p>
+        </article>
+
+        <article class="value-card">
+          <img src="assets/img/icon-sustainability.png" alt="Icono de sustentabilidad">
+          <h3>Sustentabilidad</h3>
+          <p>Promover el uso responsable de los recursos y el cuidado del planeta.</p>
+        </article>
+
+        <article class="value-card">
+          <img src="assets/img/icon-inspiration.png" alt="Icono de inspiración">
+          <h3>Inspiración</h3>
+          <p>Motivar a las nuevas generaciones a alcanzar grandes metas.</p>
+        </article>
+
+        <article class="value-card value-card--wide">
+          <img src="assets/img/icon-service.png" alt="Icono de servicio a la nación">
+          <h3>Servicio a la nación</h3>
+          <p>Poner la ciencia y la tecnología al servicio del pueblo mexicano.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="purpose-section" id="proposito">
+      <div class="axolotl-panel">
+        <img src="assets/img/axolotl-astronaut.png" alt="Ajolote astronauta del CEM">
+      </div>
+
+      <div class="purpose-content">
+        <span class="section-tag">Nuestro propósito</span>
+
+        <h2>Inspirar, educar e innovar desde México hacia el cosmos.</h2>
+
+        <p>
+          El Centro Espacial Mexicano existe para convertir la curiosidad humana
+          en descubrimientos que beneficien a México y a toda la humanidad.
+          Nuestro destino no termina en la Tierra; apenas comienza entre las estrellas.
+        </p>
+
+        <div class="purpose-mini-card">
+          <img src="assets/img/icon-purpose.png" alt="Icono de propósito">
+          <div>
+            <strong>Curiosidad con impacto</strong>
+            <span>Educación espacial, innovación y tecnología para nuevas generaciones.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="goal-section" id="meta">
+      <div class="goal-heading">
+        <img src="assets/img/icon-goal.png" alt="Icono de meta 2050">
+
+        <div>
+          <span class="section-tag">Meta 2050</span>
+          <h2>Una visión nacional de largo alcance.</h2>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <article>
+          <span>01</span>
+          <p>Primer astronauta mexicano formado íntegramente por el CEM.</p>
+        </article>
+
+        <article>
+          <span>02</span>
+          <p>Constelación nacional de satélites.</p>
+        </article>
+
+        <article>
+          <span>03</span>
+          <p>Base científica mexicana en colaboración internacional para exploración lunar.</p>
+        </article>
+
+        <article>
+          <span>04</span>
+          <p>Liderazgo aeroespacial de América Latina.</p>
+        </article>
+
+        <article>
+          <span>05</span>
+          <p>Un millón de jóvenes mexicanos capacitados en ciencia y tecnología espacial.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="final-cta" id="futuro">
+      <p>C E M</p>
+      <h2>De México al cosmos.</h2>
+      <div class="tricolor-line"></div>
+    </section>
+  </main>
 </body>
 
 </html>
